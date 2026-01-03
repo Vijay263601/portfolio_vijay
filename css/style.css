@@ -278,3 +278,17 @@ footer a {
   opacity: 1;
 }
 
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  display: none;
+  border-radius: 10px;
+}
+
+.slider img.active {
+  display: block;
+}
