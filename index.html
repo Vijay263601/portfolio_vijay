@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- BASIC -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Vijay Singh Majila | Freelance Full Stack Web Developer</title>
 
   <!-- SEO -->
-  <meta name="description" content="Vijay Singh Majila is a freelance full stack web developer in India specialising in PHP, JavaScript, MySQL, HTML and CSS.">
-  <meta name="keywords" content="Freelance Web Developer India, PHP Developer, Full Stack Developer">
+  <meta name="description" content="Vijay Singh Majila is a freelance full stack web developer in India specializing in PHP, JavaScript, MySQL, HTML and CSS.">
+  <meta name="keywords" content="Freelance Web Developer India, PHP Developer, Full Stack Developer, Web Developer India">
   <meta name="author" content="Vijay Singh Majila">
-
-  <!-- CANONICAL (GitHub Pages) -->
   <link rel="canonical" href="https://vijay263601.github.io/portfolio_vijay/">
 
-  <!-- Open Graph -->
+  <!-- OPEN GRAPH -->
   <meta property="og:title" content="Vijay Singh Majila | Freelance Web Developer">
-  <meta property="og:description" content="Freelance full stack web developer specialising in PHP and JavaScript.">
+  <meta property="og:description" content="Freelance full stack web developer building fast, secure and responsive web applications.">
   <meta property="og:image" content="images/profile.png">
   <meta property="og:url" content="https://vijay263601.github.io/portfolio_vijay/">
   <meta property="og:type" content="website">
 
-  <!-- Fonts & Icons -->
+  <!-- FONTS & ICONS -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- Schema -->
+  <!-- SCHEMA -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -51,29 +49,44 @@
 
 <body>
 
-<!-- HERO -->
-<header>
-  <img src="images/profile.png" alt="Vijay Singh Majila Freelance Web Developer" class="profile-img">
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <img src="images/profile.png" loading="lazy"
+       alt="Vijay Singh Majila Freelance Web Developer"
+       class="profile-img">
+
   <h1>Vijay Singh Majila</h1>
   <h2>Freelance Full Stack Web Developer</h2>
-  <p>I build fast, secure and responsive websites using PHP, JavaScript, MySQL, HTML and CSS.</p>
-  <a href="#contact" class="btn">Hire Me</a>
-  <a href="vijay_resume.pdf" class="btn" download>Download Resume</a>
+
+  <p>
+    I build fast, secure and responsive websites and web applications
+    using PHP, JavaScript, MySQL, HTML and CSS.
+  </p>
+
+  <div class="hero-buttons">
+    <a href="#contact" class="btn">Hire Me</a>
+    <a href="vijay_resume.pdf" class="btn btn-outline" download>Download Resume</a>
+  </div>
 </header>
 
-<!-- ABOUT -->
+<!-- ================= ABOUT ================= -->
 <section id="about">
   <h2>About Me</h2>
   <p>
-    I am a freelance full stack web developer based in India. I build responsive
-    websites, admin dashboards and custom web applications for startups and
-    small businesses.
+    I am a freelance full stack web developer based in India, helping startups
+    and small businesses build secure, scalable and user-friendly web solutions.
+    I specialize in custom websites, admin dashboards and web applications.
+  </p>
+
+  <p class="trust-line">
+    Available for freelance work • Remote & India-based
   </p>
 </section>
 
-<!-- SKILLS -->
+<!-- ================= SKILLS ================= -->
 <section id="skills">
   <h2>Skills</h2>
+
   <div class="skills">
     <div class="skill"><i class="fab fa-html5"></i><p>HTML5</p></div>
     <div class="skill"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
@@ -84,81 +97,103 @@
   </div>
 </section>
 
-<!-- PROJECTS -->
+<!-- ================= PROJECTS ================= -->
 <section id="projects">
   <h2>Projects</h2>
 
   <div class="projects">
 
-    <!-- Project 1 -->
+    <!-- PROJECT 1 -->
     <div class="project">
       <div class="slider">
-        <img src="images/project1/1.jpg" class="active" alt="Online Exam System">
-        <img src="images/project1/2.jpg" alt="Online Exam Dashboard">
-        <img src="images/project1/3.jpg" alt="Online Exam Results">
+        <img src="images/project1/1.png" loading="lazy" class="active" alt="TSR Exams Secure Online Exam">
+        <img src="images/project1/2.png" loading="lazy" alt="TSR Exams Student Login">
+        <img src="images/project1/3.png" loading="lazy" alt="TSR Exams Live Exam Interface">
+        <img src="images/project1/4.png" loading="lazy" alt="TSR Exams Fullscreen Anti Cheat">
+        <img src="images/project1/5.png" loading="lazy" alt="TSR Exams Admin Dashboard">
       </div>
+
       <div class="project-content">
-        <h3>Online Exam System</h3>
-        <p>Anti-cheating exam platform with auto evaluation built using PHP and JavaScript.</p>
-        <a href="#">Live Demo</a>
-        <a href="#">GitHub</a>
+        <h3>TSR Exams – Secure Online Examination System</h3>
+
+        <p>
+          A full-featured online examination platform with strict anti-cheating
+          mechanisms, real-time evaluation and admin-controlled exam management.
+        </p>
+
+        <ul>
+          <li>🔒 Forced fullscreen exams with auto-submit on exit</li>
+          <li>🚫 Tab switch, refresh, copy-paste & ESC detection</li>
+          <li>📝 Admin panel for question management</li>
+          <li>📊 Automatic scoring with Excel export</li>
+          <li>📱 Fully responsive for mobile & desktop</li>
+        </ul>
+
+        <a href="https://vijay263601.github.io/tsr_exams/" target="_blank">Live Demo</a>
+        <a href="https://github.com/Vijay263601/TSR_EXAMS" target="_blank">GitHub</a>
       </div>
     </div>
 
-    <!-- Project 2 -->
-    <div class="project">
-  <div class="slider">
-    <img src="images/Project2/1.png" class="active" alt="E-Commerce Home Page">
-    <img src="images/Project2/2.png" alt="Product Details Page">
-    <img src="images/Project2/3.png" alt="Cart Page">
-    <img src="images/Project2/4.png" alt="Checkout with Razorpay">
-    <img src="images/Project2/5.png" alt="Admin Dashboard">
-  </div>
-
-  <div class="project-content">
-    <h3>E-Commerce Web Application</h3>
-
-    <p>
-      A complete e-commerce platform featuring product listings, cart,
-      checkout with Razorpay payment integration, and an admin dashboard
-      for managing products, stock, coupons, and orders.
-    </p>
-
-    <a href="https://vijay263601.github.io/ecommerce-app/" target="_blank">Live Demo</a>
-    <a href="https://github.com/Vijay263601/ecommerce-app" target="_blank">GitHub</a>
-  </div>
-</div>
-
-
-    <!-- Project 3 -->
+    <!-- PROJECT 2 -->
     <div class="project">
       <div class="slider">
-        <img src="images/project-3/1.png" class="active" alt="Portfolio Website">
-        <img src="images/project-3/2.png" alt="Portfolio Projects">
-        <img src="images/project-3/3.png" alt="Portfolio Contact Form">
+        <img src="images/project2/1.png" loading="lazy" class="active" alt="E-Commerce Home Page">
+        <img src="images/project2/2.png" loading="lazy" alt="Product Details Page">
+        <img src="images/project2/3.png" loading="lazy" alt="Cart Page">
+        <img src="images/project2/4.png" loading="lazy" alt="Checkout Razorpay">
+        <img src="images/project2/5.png" loading="lazy" alt="Admin Dashboard">
       </div>
+
       <div class="project-content">
-        <h3>Portfolio Website</h3>
-        <p>SEO-optimized personal portfolio website.</p>
+        <h3>E-Commerce Web Application</h3>
+
+        <p>
+          A complete e-commerce solution featuring product listings,
+          shopping cart, Razorpay payment integration and an admin dashboard
+          for managing products and orders.
+        </p>
+
+        <a href="https://vijay263601.github.io/ecommerce-app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/Vijay263601/ecommerce-app" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project">
+      <div class="slider">
+        <img src="images/project3/1.png" loading="lazy" class="active" alt="Portfolio Website">
+        <img src="images/project3/2.png" loading="lazy" alt="Portfolio Projects Section">
+        <img src="images/project3/3.png" loading="lazy" alt="Portfolio Contact Form">
+      </div>
+
+      <div class="project-content">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          SEO-optimized personal portfolio built to showcase projects,
+          skills and freelance services.
+        </p>
+
         <a href="https://vijay263601.github.io/portfolio_vijay/" target="_blank">Live Demo</a>
         <a href="https://github.com/Vijay263601/portfolio_vijay" target="_blank">GitHub</a>
       </div>
     </div>
 
-    <!-- Project 4 (NEW) -->
+    <!-- PROJECT 4 -->
     <div class="project">
       <div class="slider">
-        <img src="images/project4/1.png" class="active" alt="To Do List App">
-        <img src="images/project4/2.png" alt="To Do List Tasks">
-        <img src="images/project4/3.png" alt="To Do List UI">
-        <img src="images/project4/4.png" alt="To Do List UI">
+        <img src="images/project4/1.png" loading="lazy" class="active" alt="To Do App">
+        <img src="images/project4/2.png" loading="lazy" alt="To Do Tasks">
+        <img src="images/project4/3.png" loading="lazy" alt="To Do UI">
+        <img src="images/project4/4.png" loading="lazy" alt="To Do App UI">
       </div>
+
       <div class="project-content">
         <h3>To-Do List Web App</h3>
         <p>
-          A responsive to-do list application built using HTML, CSS and JavaScript.
-          Includes task management, completion tracking and localStorage support.
+          A responsive to-do list application with task management,
+          completion tracking and localStorage support.
         </p>
+
         <a href="https://vijay263601.github.io/todo-app/" target="_blank">Live Demo</a>
         <a href="https://github.com/Vijay263601/todo-app" target="_blank">GitHub</a>
       </div>
@@ -167,27 +202,38 @@
   </div>
 </section>
 
-<!-- CONTACT -->
+<!-- ================= CONTACT ================= -->
 <section id="contact">
   <h2>Contact Me</h2>
+
   <form action="https://formspree.io/f/mqeapjbk" method="POST">
     <input type="hidden" name="_subject" value="New Freelance Inquiry">
     <input type="hidden" name="_captcha" value="false">
+
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
     <button type="submit">Send Message</button>
   </form>
 </section>
 
-<!-- FOOTER -->
+<!-- ================= FOOTER ================= -->
 <footer>
-  <p>© 2026 Vijay Singh Majila</p>
+  <p>© <span id="year"></span> Vijay Singh Majila</p>
   <p class="footer-seo">Freelance Web Developer in India | PHP | JavaScript</p>
-  <a href="https://github.com/Vijay263601" target="_blank">GitHub</a>
-  <a href="https://www.linkedin.com/in/vijay-singh-majila-252429160/" target="_blank">LinkedIn</a>
+
+  <div class="footer-links">
+    <a href="https://github.com/Vijay263601" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/vijay-singh-majila-252429160/" target="_blank">LinkedIn</a>
+  </div>
 </footer>
 
+<!-- JS -->
 <script src="js/script.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
